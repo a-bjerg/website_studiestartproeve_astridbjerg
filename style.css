@@ -1,0 +1,203 @@
+/******* Reset ********/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+} 
+
+/******* fonts ********/
+
+@font-face{
+                        font-family: 'MyWebFont';
+                        src: url('fonts/ptsansnarrow-regular-webfont.woff2');
+                        src: url('fonts/ptsansnarrow-regular-webfont.woff') format('embedded-opentype'),
+                        url('WebFont.woff') format('woff'),
+                        url('WebFont.ttf') format('truetype'),
+                        url('WebFont.svg#webfont') format('svg');
+                        }
+
+
+
+/******* tekst ********/
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 8rem;
+    color: #1c2a19;
+}     
+p{
+    font-family: 'pt sans narrow', sans-serif;
+    color: #61725d;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+} 
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: #3d4d39;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    color: #3d4d39;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+} 
+
+.link_mincomputer{
+    font-family: 'pt sans narrow', sans-serif;
+    color: #e8e6d3;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 1px solid #1c2a19;
+    background-color: #1c2a19;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 4rem;
+}
+
+dt{
+color: #3d4d39;
+font-family: pt sans narrow, sans-serif;
+font-weight: bold;
+font-size: 1.3rem;
+}
+
+dd{
+    font-family: pt sans narrow, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #3d4d39;
+}
+
+.specifikationer{
+  font-family: pt sans narrow, sans-serif;
+  color: #61725d;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+}
+
+
+/******* menu ********/
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #61725d;
+  box-shadow: 3px 5px 5px #1c2a19;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+ 
+  
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #e8e6d3;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  color: #1c2a19;
+  border: 1px solid #1c2a19;
+  background-color: #b1c3ac;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+
+
+
+/******* billede ********/
+
+img {
+border: 3px solid #e8e6d3;
+padding: 3px;
+}
+
+.laptop {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tablet {
+  margin-bottom: 2rem;
+}
+
+/******* krop ********/
+
+body {
+  background-color: #b1c3ac;
+}
+
+main {
+  margin: 1rem;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #61725d;
+  font-size: 1rem;
+  padding-block: 0.5rem;
+  text-align: center ;
+  
+} 
+
+footer p{ 
+  color: #e8e6d3;
+  
+  margin-top: 1rem;
+}
+
+
+
+
+/******* diverse ********/
+
+.item{
+ border: 3px solid #e8e6d3;
+padding: 3px;
+padding-left: 1rem;
+}
